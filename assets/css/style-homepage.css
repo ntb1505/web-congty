@@ -21,8 +21,6 @@
     width: 33.33333%;
 }
 
-body {}
-
 #main {}
 
 .bg-top {
@@ -70,6 +68,9 @@ body {}
     position: absolute;
     padding: 0;
     margin:0;
+    width: 100vw;
+    height: 700px;
+    overflow: hidden;
 }
 
 .fiuters-e .khung1 {
@@ -86,7 +87,6 @@ body {}
     opacity: 30%;
     position: relative;
     top: 700px;
-
 }
 
 .fiuters-e .vuong2 {
@@ -104,11 +104,9 @@ body {}
 }
 
 .fiuters-e .tron {
-    position: relative;
-    top: 20%;
-    left: 200%;
+    position: absolute;
     opacity: 1;
-    margin: auto;
+    right: -50px;
 }
 
 /* ----------------------------------------------------------------- */
@@ -341,9 +339,11 @@ div .price {
 .price .text-pri{
     padding: 5% 40%;
 }
+
 .btn-pri{
-    text-align: center;
-   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .btn-pri div{
     width: 221px;
@@ -375,10 +375,17 @@ div .icon-ctn {
 }
 
 div .banner {
-    background: no-repeat url("/assets/img/23509.png");
+     
     background-size: cover;
     padding: 100px 0;
     margin-top: 100px;
+
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),url("/assets/img/23509.png");
 
 }
 
@@ -415,7 +422,6 @@ div .banner {
 #footer .information {
     color: #fff;
     padding: 20% 10%;
-    ;
 }
 
 .information div {}
@@ -467,4 +473,5 @@ div .right {
 div #end {
     color: #fff;
     margin-left: 50%;
+    margin-bottom: 0px;
 }
