@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-3{
+    width: 33.33333%;
+}
+
+body {}
+
+#main {
+}
+.bg-top {
+    background-image:  url("/assets/img/bg-top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fiuters {
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+
+.fiuters .vuong {
+    width: 108px;
+    height: 108px;
+    opacity: 30%;
+    position: relative;
+    top: 400px;
+    left: 173px;
+}
+
+.fiuters .cheo {
+    position: relative;
+    left:1300px;
+    top: -400px;
+}
+
+.fiuters .cheo1 {
+    position: relative;
+    top: -500px;
+
+}
+
+.fiuters .khung {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    left:500px;
+    opacity: 0.2;
+}
+
+.fiuters-e {
+    position: absolute;
+}
+
+.fiuters-e .khung1 {
+    width: 179px;
+    height: 179px;
+    position: relative;
+    top:300px;
+    left: -100px;
+    opacity: 0.2;
+    border-radius: 30%;
+}
+
+.fiuters-e .vuong1 {
+    opacity: 30%;
+    position: relative;
+    top:700px;
+
+}
+
+.fiuters-e .vuong2 {
+    opacity: 30%;
+    position: relative;
+    top: 650px;
+}
+
+.fiuters-e .vuong3 {
+    width: 50px;
+    height: 50px;
+    opacity: 1%;
+    position: relative;
+    top: 500px;
+}
+
+.fiuters-e .tron {
+    position: relative;
+    top:300px;
+    left: 1020px;
+    opacity: 0.3;
+}
+
+/* ----------------------------------------------------------------- */
+#header {
+    padding: 40px 50px;
+}
+
+.logo-hd {}
+
+.logo-hd .header-logo {
+    width: 237px;
+    height: 35px;
+}
+
+.logo-hd p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.menu-hd {
+    padding-left: 440px;
+}
+
+.menu-hd li {
+    padding: 0 10px;
+}
+
+.menu-hd a {
+    font-size: 25px;
+}
+
+.menu-hd li:hover a {
+    background-color: #ccc;
+}
+
+
+
+
+/* ------------------------------- */
+
+#sidebar {
+    padding-top: 15%;
+    padding-left: 50%;
+}
+
+#sidebar div {
+    color: #fff;
+}
+
+#sidebar p {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 450px;
+    left: 900px;
+}
+
+#sidebar h1 {
+    font-size: 100px;
+    text-decoration: underline;
+    font-weight: 800;
+    letter-spacing: -1, 9;
+
+}
+
+#sidebar h1::first-letter {
+    font-size: 200px;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    margin-bottom: 30 px;
+    margin-left: 490px;
+
+}
+
+.icons {
+    font-size: 30px;
+    margin-left: 450px;
+}
+
+.icons i {
+    margin: 1px 10px;
+}
+
+/* ------------------------------------------------------------ */
+#submit{
+    width: 791px;
+    height: 1000px;
+     background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-top:20%;
+    margin-bottom: 5%;
+    margin-left:40%;
+}
+
+div .row
+{
+    padding:100px 70px;
+    
+}
+
+div .form-group{
+    padding:30px 0;
+}
+
+.form-group #ip-message{
+    background: #33A3FF33;
+    width: 559px;
+    height: 208px;
+}
+
+.ip-btn{
+   
+    border: none;
+    margin-left:-9px;
+}
+/* ----------------------------------------------- */
+.mess{
+    margin-left: 57%;
+}
+
+.mess .messfor{
+    color: #0061B0;
+    font-size: 100px;
+}
+.mess .maiatech{
+    color: #0061B0;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 0.77;
+    margin-left: 20%;
+}
+.mess .hotline{
+    font-size: 20px;
+    margin-left: 50%;
+}
+
+.fiuters-sm{
+    position: absolute;
+}
+.sm-square{
+    opacity: 0.6;
+    position: relative;
+    top: 600px;
+    left: -100px;
+}
+
+.sm-eclip5{
+    position: relative;
+    top:600px;
+    opacity: 0.6;
+}
+
+.sm-eclip1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top:1000px;
+    left: -500px;
+    opacity: 0.8;
+}
+.cross{
+    position: relative;
+    top: 1000px;
+    left: -200px;
+    opacity: 0.3;
+}
+
+.clicksm{
+    width:100%;
+    height: 1200px;
+}
+/* --------------------------------------------- */
+
+
+div .icon-ctn {
+    color: #0061B0;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 1300px;
+}
+
+#footer {
+    background: no-repeat url("/assets/img/bg-footer.png");
+    background-size: cover;
+
+}
+
+div .banner {
+    background: no-repeat url("/assets/img/23509.png");
+    padding: 100px 0;
+    margin-top: 100px;
+    background-size: cover;
+
+}
+
+
+.text-bn {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner p {
+    font-weight: bolder;
+    font-size: 90px;
+    padding-top: 0px;
+}
+
+.banner .bt-ft {
+    background-color: #0061B0;
+    margin-left: 10%;
+    padding: 10px 20px;
+    border-color: #0061B0;
+    border-radius: 5%;
+    color: #fff;
+}
+
+#footer .img-ft {
+    position: absolute;
+    padding-left: 1100px;
+}
+
+
+/* --------------------------------------------------- */
+#footer .information {
+    color: #fff;
+    padding: 20% 10%;;
+}
+.information div{
+}
+
+
+#footer li {
+    display: block;
+}
+
+div .left {
+    float: left;
+}
+
+.left p1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.icons-ft i {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+div .center {
+    text-align: left;
+    float: center;
+}
+
+.center h4 {
+    font-weight: bold;
+}
+
+div .right {
+  float: right;
+}
+
+.right a {
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.right li a:hover {
+    background-color: #ccc;
+}
+
+div #end {
+    color: #fff;
+    margin-left: 50%;
+}
