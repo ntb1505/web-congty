@@ -6,22 +6,12 @@
     max-width: 100%;
 }
 
-.row {
-    margin-left: -8px;
-    margin-right: -8px;
-}
-
-.col {
-    float: left;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.col-3 {
-    width: 33.33333%;
-}
-
 #main {}
+
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .bg-top {
     background-image: url("/assets/img/bg-top.png");
@@ -66,17 +56,15 @@
 
 .fiuters-e {
     position: absolute;
-    padding: 0;
-    margin:0;
-    width: 100vw;
-    height: 700px;
+    width: 0;
+    height: 0;
     overflow: hidden;
 }
 
 .fiuters-e .khung1 {
     width: 179px;
     height: 179px;
-    position: relative;
+    position:absolute;
     top: 300px;
     left: -100px;
     opacity: 0.2;
@@ -85,13 +73,13 @@
 
 .fiuters-e .vuong1 {
     opacity: 30%;
-    position: relative;
+    position:absolute;
     top: 700px;
 }
 
 .fiuters-e .vuong2 {
     opacity: 30%;
-    position: relative;
+    position:absolute;
     top: 650px;
 }
 
@@ -99,7 +87,7 @@
     width: 50px;
     height: 50px;
     opacity: 1%;
-    position: relative;
+    position:absolute;
     top: 500px;
 }
 
@@ -108,7 +96,28 @@
     opacity: 1;
     right: -50px;
 }
+.fiuters-e .fiuter-ct{
 
+    position: relative;
+    left: 40%;
+  
+}
+
+.fiuters-e .fiuter-ct1{
+     position: relative;
+     left: 70%;
+}
+
+.fiuters-e .fiuter-ct2{
+    position: relative;
+    top: 10%;
+    left: 0%;
+}
+.fiuters-e .fiuter-ct3{
+    position: relative;
+    left: 0%;
+
+}
 /* ----------------------------------------------------------------- */
 #header {
     padding: 40px 50px;
@@ -148,46 +157,27 @@
 /* ------------------------------- */
 
 #sidebar {
-    padding-top: 15%;
-    padding-left: 50%;
-}
-
-#sidebar div {
-    color: #fff;
-}
-
-#sidebar p {
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
-    position: absolute;
-    top: 450px;
-    left: 900px;
-}
-
-#sidebar h1 {
-    font-size: 100px;
-    text-decoration: underline;
-    font-weight: 800;
-    letter-spacing: -1, 9;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 }
 
-#sidebar h1::first-letter {
-    font-size: 200px;
+#sidebar img {
+    width: 95%;
 }
 
-
-.btn {
-    text-transform: uppercase;
-    margin-bottom: 30 px;
-    margin-left: 490px;
-
+#sidebar .btn {
+    background-color: #fff;
+    margin-left: -20px;
 }
 
 .icons {
-    font-size: 30px;
-    margin-left: 450px;
+    font-size: auto;
+    color: #fff;
+    text-align: right;
+    margin-right: 30px;
 }
 
 .icons i {
@@ -196,7 +186,10 @@
 
 /* ------------------------------------------------------------ */
 #content {
-    padding: 30% 0;
+    padding: 0 0;
+}
+.whowe{
+    padding-top: 20%;
 }
 
 div .title {
@@ -224,29 +217,29 @@ div .title {
     color: black;
 }
 
-.img-ct {}
+.card-ct button{
+    background: linear-gradient(0deg, #0061B0, #0061B0),
+linear-gradient(89.93deg, #0061B0 0.05%, #016DC6 47.39%, #048BFA 99.93%);
+box-shadow: 0px 4px 6px 0px #00000033;
+    color: #fff;
+    padding: 2% 5%;
+    margin:10%;
+    border-color: #048BFA;
+}
+
+div .img-ct {
+   
+}
 
 .img-ct img {
-    width: 109%;
-    padding: 5px 0%;
+    
 }
 
-.img-ct .home-2 {
-    padding-left: 50%;
-}
-
-.img-ct .home-3 {
-    padding-left: 14%;
-}
-
-.img-ct .home-5 {
-    padding-left: 30%;
-}
 
 
 
 div .whatwedo {
-    padding-top: 30%;
+    padding-top: 20%;
     text-align: center;
 
 }
@@ -269,7 +262,7 @@ div .procedure {
 }
 
 div .ourservices{
-      padding-top: 40%;
+      padding-top: 20%;
 }
 
 .ourservices div{
@@ -301,7 +294,7 @@ div .APPLICATION{
 .communication {
     text-align: center;
     display: flex;
-
+    padding-top: 10%;
 }
 
 .communication div{
@@ -313,7 +306,7 @@ div .APPLICATION{
    border:2px solid #0163B3;
     border-radius: 50%;
     box-shadow: 0px 4px 60px -5px #0061B0;
-    ;
+    
 
 }
 .communication .mobile{
@@ -329,6 +322,7 @@ div .APPLICATION{
 }
 
 
+
 div .price {
     height:  269px;
     width: 1234px;
@@ -337,7 +331,13 @@ div .price {
 
 }
 .price .text-pri{
-    padding: 5% 40%;
+    padding: 2% 10%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size:50px;
+    
+
 }
 
 .btn-pri{
@@ -349,14 +349,70 @@ div .price {
     width: 221px;
     height: 54px;
     background: #33A3FF;
-    margin-left: 7;
+    padding-top: 1%;
+    text-align: center;
 }
+
+.btn-pri .nbg{
+    background-color: #fff;
+}
+
+
 
 .sofware{
+}
 
+.sofware .title b {
+    margin-left: 30%;
+}
+
+.sofware .title h1{
+    line-height: 0.4;
+}
+
+.sofware .text{
+    font-size: 26px;
+}
+
+div .team{
+    align-items: center;
+    justify-content: center;
+}
+.team .card{
+    border: none;
+    margin:2%;
+    box-shadow: 0px 4px 30px 0px #00000040;
+    
+
+}
+.team .img-team {
+    display: inline;
 }
 
 
+
+.ourgoals{
+    padding-top: 20%;
+}
+.ourgoals .p1{
+    margin-left: 20%;
+}
+.ourgoals .text-1{
+    margin: 20% 0 0 0;
+    padding: 0;
+
+}
+
+div .gttv{
+    background: #F7F7F7;
+
+    height: 711px;
+    width: 1234px;
+    margin: 10%;
+}
+.gttv div{
+    padding:3%
+}
 /* --------------------------------------------- ------------------*/
 
 
@@ -367,7 +423,7 @@ div .icon-ctn {
     margin-left: 1300px;
 }
 
-#footer {
+.bg-bt{
     background: no-repeat url("/assets/img/bg-footer.png");
     background-size: cover;
     max-width: 100%;
